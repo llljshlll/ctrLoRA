@@ -1,0 +1,250 @@
+Key                                                                                                  Shape                                    #Params
+----------------------------------------------------------------------------------------------------
+control_model.time_embed.0.lora_layer.down.weight                                                    (128, 320)                               40960
+control_model.time_embed.0.lora_layer.up.weight                                                      (1280, 128)                              163840
+control_model.time_embed.2.lora_layer.down.weight                                                    (128, 1280)                              163840
+control_model.time_embed.2.lora_layer.up.weight                                                      (1280, 128)                              163840
+control_model.input_blocks.1.0.emb_layers.1.lora_layer.down.weight                                   (128, 1280)                              163840
+control_model.input_blocks.1.0.emb_layers.1.lora_layer.up.weight                                     (320, 128)                               40960
+control_model.input_blocks.1.1.norm.weight                                                           (320,)                                   320
+control_model.input_blocks.1.1.norm.bias                                                             (320,)                                   320
+control_model.input_blocks.1.1.transformer_blocks.0.attn1.to_q.lora_layer.down.weight                (128, 320)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.attn1.to_q.lora_layer.up.weight                  (320, 128)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.attn1.to_k.lora_layer.down.weight                (128, 320)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.attn1.to_k.lora_layer.up.weight                  (320, 128)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.attn1.to_v.lora_layer.down.weight                (128, 320)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.attn1.to_v.lora_layer.up.weight                  (320, 128)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.attn1.to_out.0.lora_layer.down.weight            (128, 320)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.attn1.to_out.0.lora_layer.up.weight              (320, 128)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.ff.net.0.proj.lora_layer.down.weight             (128, 320)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.ff.net.0.proj.lora_layer.up.weight               (2560, 128)                              327680
+control_model.input_blocks.1.1.transformer_blocks.0.ff.net.2.lora_layer.down.weight                  (128, 1280)                              163840
+control_model.input_blocks.1.1.transformer_blocks.0.ff.net.2.lora_layer.up.weight                    (320, 128)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.attn2.to_q.lora_layer.down.weight                (128, 320)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.attn2.to_q.lora_layer.up.weight                  (320, 128)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.attn2.to_k.lora_layer.down.weight                (128, 768)                               98304
+control_model.input_blocks.1.1.transformer_blocks.0.attn2.to_k.lora_layer.up.weight                  (320, 128)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.attn2.to_v.lora_layer.down.weight                (128, 768)                               98304
+control_model.input_blocks.1.1.transformer_blocks.0.attn2.to_v.lora_layer.up.weight                  (320, 128)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.attn2.to_out.0.lora_layer.down.weight            (128, 320)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.attn2.to_out.0.lora_layer.up.weight              (320, 128)                               40960
+control_model.input_blocks.1.1.transformer_blocks.0.norm1.weight                                     (320,)                                   320
+control_model.input_blocks.1.1.transformer_blocks.0.norm1.bias                                       (320,)                                   320
+control_model.input_blocks.1.1.transformer_blocks.0.norm2.weight                                     (320,)                                   320
+control_model.input_blocks.1.1.transformer_blocks.0.norm2.bias                                       (320,)                                   320
+control_model.input_blocks.1.1.transformer_blocks.0.norm3.weight                                     (320,)                                   320
+control_model.input_blocks.1.1.transformer_blocks.0.norm3.bias                                       (320,)                                   320
+control_model.input_blocks.2.0.emb_layers.1.lora_layer.down.weight                                   (128, 1280)                              163840
+control_model.input_blocks.2.0.emb_layers.1.lora_layer.up.weight                                     (320, 128)                               40960
+control_model.input_blocks.2.1.norm.weight                                                           (320,)                                   320
+control_model.input_blocks.2.1.norm.bias                                                             (320,)                                   320
+control_model.input_blocks.2.1.transformer_blocks.0.attn1.to_q.lora_layer.down.weight                (128, 320)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.attn1.to_q.lora_layer.up.weight                  (320, 128)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.attn1.to_k.lora_layer.down.weight                (128, 320)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.attn1.to_k.lora_layer.up.weight                  (320, 128)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.attn1.to_v.lora_layer.down.weight                (128, 320)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.attn1.to_v.lora_layer.up.weight                  (320, 128)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.attn1.to_out.0.lora_layer.down.weight            (128, 320)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.attn1.to_out.0.lora_layer.up.weight              (320, 128)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.ff.net.0.proj.lora_layer.down.weight             (128, 320)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.ff.net.0.proj.lora_layer.up.weight               (2560, 128)                              327680
+control_model.input_blocks.2.1.transformer_blocks.0.ff.net.2.lora_layer.down.weight                  (128, 1280)                              163840
+control_model.input_blocks.2.1.transformer_blocks.0.ff.net.2.lora_layer.up.weight                    (320, 128)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.attn2.to_q.lora_layer.down.weight                (128, 320)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.attn2.to_q.lora_layer.up.weight                  (320, 128)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.attn2.to_k.lora_layer.down.weight                (128, 768)                               98304
+control_model.input_blocks.2.1.transformer_blocks.0.attn2.to_k.lora_layer.up.weight                  (320, 128)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.attn2.to_v.lora_layer.down.weight                (128, 768)                               98304
+control_model.input_blocks.2.1.transformer_blocks.0.attn2.to_v.lora_layer.up.weight                  (320, 128)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.attn2.to_out.0.lora_layer.down.weight            (128, 320)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.attn2.to_out.0.lora_layer.up.weight              (320, 128)                               40960
+control_model.input_blocks.2.1.transformer_blocks.0.norm1.weight                                     (320,)                                   320
+control_model.input_blocks.2.1.transformer_blocks.0.norm1.bias                                       (320,)                                   320
+control_model.input_blocks.2.1.transformer_blocks.0.norm2.weight                                     (320,)                                   320
+control_model.input_blocks.2.1.transformer_blocks.0.norm2.bias                                       (320,)                                   320
+control_model.input_blocks.2.1.transformer_blocks.0.norm3.weight                                     (320,)                                   320
+control_model.input_blocks.2.1.transformer_blocks.0.norm3.bias                                       (320,)                                   320
+control_model.input_blocks.4.0.emb_layers.1.lora_layer.down.weight                                   (128, 1280)                              163840
+control_model.input_blocks.4.0.emb_layers.1.lora_layer.up.weight                                     (640, 128)                               81920
+control_model.input_blocks.4.1.norm.weight                                                           (640,)                                   640
+control_model.input_blocks.4.1.norm.bias                                                             (640,)                                   640
+control_model.input_blocks.4.1.transformer_blocks.0.attn1.to_q.lora_layer.down.weight                (128, 640)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.attn1.to_q.lora_layer.up.weight                  (640, 128)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.attn1.to_k.lora_layer.down.weight                (128, 640)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.attn1.to_k.lora_layer.up.weight                  (640, 128)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.attn1.to_v.lora_layer.down.weight                (128, 640)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.attn1.to_v.lora_layer.up.weight                  (640, 128)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.attn1.to_out.0.lora_layer.down.weight            (128, 640)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.attn1.to_out.0.lora_layer.up.weight              (640, 128)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.ff.net.0.proj.lora_layer.down.weight             (128, 640)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.ff.net.0.proj.lora_layer.up.weight               (5120, 128)                              655360
+control_model.input_blocks.4.1.transformer_blocks.0.ff.net.2.lora_layer.down.weight                  (128, 2560)                              327680
+control_model.input_blocks.4.1.transformer_blocks.0.ff.net.2.lora_layer.up.weight                    (640, 128)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.attn2.to_q.lora_layer.down.weight                (128, 640)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.attn2.to_q.lora_layer.up.weight                  (640, 128)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.attn2.to_k.lora_layer.down.weight                (128, 768)                               98304
+control_model.input_blocks.4.1.transformer_blocks.0.attn2.to_k.lora_layer.up.weight                  (640, 128)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.attn2.to_v.lora_layer.down.weight                (128, 768)                               98304
+control_model.input_blocks.4.1.transformer_blocks.0.attn2.to_v.lora_layer.up.weight                  (640, 128)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.attn2.to_out.0.lora_layer.down.weight            (128, 640)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.attn2.to_out.0.lora_layer.up.weight              (640, 128)                               81920
+control_model.input_blocks.4.1.transformer_blocks.0.norm1.weight                                     (640,)                                   640
+control_model.input_blocks.4.1.transformer_blocks.0.norm1.bias                                       (640,)                                   640
+control_model.input_blocks.4.1.transformer_blocks.0.norm2.weight                                     (640,)                                   640
+control_model.input_blocks.4.1.transformer_blocks.0.norm2.bias                                       (640,)                                   640
+control_model.input_blocks.4.1.transformer_blocks.0.norm3.weight                                     (640,)                                   640
+control_model.input_blocks.4.1.transformer_blocks.0.norm3.bias                                       (640,)                                   640
+control_model.input_blocks.5.0.emb_layers.1.lora_layer.down.weight                                   (128, 1280)                              163840
+control_model.input_blocks.5.0.emb_layers.1.lora_layer.up.weight                                     (640, 128)                               81920
+control_model.input_blocks.5.1.norm.weight                                                           (640,)                                   640
+control_model.input_blocks.5.1.norm.bias                                                             (640,)                                   640
+control_model.input_blocks.5.1.transformer_blocks.0.attn1.to_q.lora_layer.down.weight                (128, 640)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.attn1.to_q.lora_layer.up.weight                  (640, 128)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.attn1.to_k.lora_layer.down.weight                (128, 640)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.attn1.to_k.lora_layer.up.weight                  (640, 128)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.attn1.to_v.lora_layer.down.weight                (128, 640)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.attn1.to_v.lora_layer.up.weight                  (640, 128)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.attn1.to_out.0.lora_layer.down.weight            (128, 640)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.attn1.to_out.0.lora_layer.up.weight              (640, 128)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.ff.net.0.proj.lora_layer.down.weight             (128, 640)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.ff.net.0.proj.lora_layer.up.weight               (5120, 128)                              655360
+control_model.input_blocks.5.1.transformer_blocks.0.ff.net.2.lora_layer.down.weight                  (128, 2560)                              327680
+control_model.input_blocks.5.1.transformer_blocks.0.ff.net.2.lora_layer.up.weight                    (640, 128)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.attn2.to_q.lora_layer.down.weight                (128, 640)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.attn2.to_q.lora_layer.up.weight                  (640, 128)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.attn2.to_k.lora_layer.down.weight                (128, 768)                               98304
+control_model.input_blocks.5.1.transformer_blocks.0.attn2.to_k.lora_layer.up.weight                  (640, 128)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.attn2.to_v.lora_layer.down.weight                (128, 768)                               98304
+control_model.input_blocks.5.1.transformer_blocks.0.attn2.to_v.lora_layer.up.weight                  (640, 128)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.attn2.to_out.0.lora_layer.down.weight            (128, 640)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.attn2.to_out.0.lora_layer.up.weight              (640, 128)                               81920
+control_model.input_blocks.5.1.transformer_blocks.0.norm1.weight                                     (640,)                                   640
+control_model.input_blocks.5.1.transformer_blocks.0.norm1.bias                                       (640,)                                   640
+control_model.input_blocks.5.1.transformer_blocks.0.norm2.weight                                     (640,)                                   640
+control_model.input_blocks.5.1.transformer_blocks.0.norm2.bias                                       (640,)                                   640
+control_model.input_blocks.5.1.transformer_blocks.0.norm3.weight                                     (640,)                                   640
+control_model.input_blocks.5.1.transformer_blocks.0.norm3.bias                                       (640,)                                   640
+control_model.input_blocks.7.0.emb_layers.1.lora_layer.down.weight                                   (128, 1280)                              163840
+control_model.input_blocks.7.0.emb_layers.1.lora_layer.up.weight                                     (1280, 128)                              163840
+control_model.input_blocks.7.1.norm.weight                                                           (1280,)                                  1280
+control_model.input_blocks.7.1.norm.bias                                                             (1280,)                                  1280
+control_model.input_blocks.7.1.transformer_blocks.0.attn1.to_q.lora_layer.down.weight                (128, 1280)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.attn1.to_q.lora_layer.up.weight                  (1280, 128)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.attn1.to_k.lora_layer.down.weight                (128, 1280)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.attn1.to_k.lora_layer.up.weight                  (1280, 128)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.attn1.to_v.lora_layer.down.weight                (128, 1280)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.attn1.to_v.lora_layer.up.weight                  (1280, 128)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.attn1.to_out.0.lora_layer.down.weight            (128, 1280)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.attn1.to_out.0.lora_layer.up.weight              (1280, 128)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.ff.net.0.proj.lora_layer.down.weight             (128, 1280)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.ff.net.0.proj.lora_layer.up.weight               (10240, 128)                             1310720
+control_model.input_blocks.7.1.transformer_blocks.0.ff.net.2.lora_layer.down.weight                  (128, 5120)                              655360
+control_model.input_blocks.7.1.transformer_blocks.0.ff.net.2.lora_layer.up.weight                    (1280, 128)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.attn2.to_q.lora_layer.down.weight                (128, 1280)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.attn2.to_q.lora_layer.up.weight                  (1280, 128)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.attn2.to_k.lora_layer.down.weight                (128, 768)                               98304
+control_model.input_blocks.7.1.transformer_blocks.0.attn2.to_k.lora_layer.up.weight                  (1280, 128)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.attn2.to_v.lora_layer.down.weight                (128, 768)                               98304
+control_model.input_blocks.7.1.transformer_blocks.0.attn2.to_v.lora_layer.up.weight                  (1280, 128)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.attn2.to_out.0.lora_layer.down.weight            (128, 1280)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.attn2.to_out.0.lora_layer.up.weight              (1280, 128)                              163840
+control_model.input_blocks.7.1.transformer_blocks.0.norm1.weight                                     (1280,)                                  1280
+control_model.input_blocks.7.1.transformer_blocks.0.norm1.bias                                       (1280,)                                  1280
+control_model.input_blocks.7.1.transformer_blocks.0.norm2.weight                                     (1280,)                                  1280
+control_model.input_blocks.7.1.transformer_blocks.0.norm2.bias                                       (1280,)                                  1280
+control_model.input_blocks.7.1.transformer_blocks.0.norm3.weight                                     (1280,)                                  1280
+control_model.input_blocks.7.1.transformer_blocks.0.norm3.bias                                       (1280,)                                  1280
+control_model.input_blocks.8.0.emb_layers.1.lora_layer.down.weight                                   (128, 1280)                              163840
+control_model.input_blocks.8.0.emb_layers.1.lora_layer.up.weight                                     (1280, 128)                              163840
+control_model.input_blocks.8.1.norm.weight                                                           (1280,)                                  1280
+control_model.input_blocks.8.1.norm.bias                                                             (1280,)                                  1280
+control_model.input_blocks.8.1.transformer_blocks.0.attn1.to_q.lora_layer.down.weight                (128, 1280)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.attn1.to_q.lora_layer.up.weight                  (1280, 128)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.attn1.to_k.lora_layer.down.weight                (128, 1280)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.attn1.to_k.lora_layer.up.weight                  (1280, 128)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.attn1.to_v.lora_layer.down.weight                (128, 1280)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.attn1.to_v.lora_layer.up.weight                  (1280, 128)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.attn1.to_out.0.lora_layer.down.weight            (128, 1280)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.attn1.to_out.0.lora_layer.up.weight              (1280, 128)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.ff.net.0.proj.lora_layer.down.weight             (128, 1280)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.ff.net.0.proj.lora_layer.up.weight               (10240, 128)                             1310720
+control_model.input_blocks.8.1.transformer_blocks.0.ff.net.2.lora_layer.down.weight                  (128, 5120)                              655360
+control_model.input_blocks.8.1.transformer_blocks.0.ff.net.2.lora_layer.up.weight                    (1280, 128)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.attn2.to_q.lora_layer.down.weight                (128, 1280)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.attn2.to_q.lora_layer.up.weight                  (1280, 128)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.attn2.to_k.lora_layer.down.weight                (128, 768)                               98304
+control_model.input_blocks.8.1.transformer_blocks.0.attn2.to_k.lora_layer.up.weight                  (1280, 128)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.attn2.to_v.lora_layer.down.weight                (128, 768)                               98304
+control_model.input_blocks.8.1.transformer_blocks.0.attn2.to_v.lora_layer.up.weight                  (1280, 128)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.attn2.to_out.0.lora_layer.down.weight            (128, 1280)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.attn2.to_out.0.lora_layer.up.weight              (1280, 128)                              163840
+control_model.input_blocks.8.1.transformer_blocks.0.norm1.weight                                     (1280,)                                  1280
+control_model.input_blocks.8.1.transformer_blocks.0.norm1.bias                                       (1280,)                                  1280
+control_model.input_blocks.8.1.transformer_blocks.0.norm2.weight                                     (1280,)                                  1280
+control_model.input_blocks.8.1.transformer_blocks.0.norm2.bias                                       (1280,)                                  1280
+control_model.input_blocks.8.1.transformer_blocks.0.norm3.weight                                     (1280,)                                  1280
+control_model.input_blocks.8.1.transformer_blocks.0.norm3.bias                                       (1280,)                                  1280
+control_model.input_blocks.10.0.emb_layers.1.lora_layer.down.weight                                  (128, 1280)                              163840
+control_model.input_blocks.10.0.emb_layers.1.lora_layer.up.weight                                    (1280, 128)                              163840
+control_model.input_blocks.11.0.emb_layers.1.lora_layer.down.weight                                  (128, 1280)                              163840
+control_model.input_blocks.11.0.emb_layers.1.lora_layer.up.weight                                    (1280, 128)                              163840
+control_model.zero_convs.0.0.weight                                                                  (320, 320, 1, 1)                         102400
+control_model.zero_convs.0.0.bias                                                                    (320,)                                   320
+control_model.zero_convs.1.0.weight                                                                  (320, 320, 1, 1)                         102400
+control_model.zero_convs.1.0.bias                                                                    (320,)                                   320
+control_model.zero_convs.2.0.weight                                                                  (320, 320, 1, 1)                         102400
+control_model.zero_convs.2.0.bias                                                                    (320,)                                   320
+control_model.zero_convs.3.0.weight                                                                  (320, 320, 1, 1)                         102400
+control_model.zero_convs.3.0.bias                                                                    (320,)                                   320
+control_model.zero_convs.4.0.weight                                                                  (640, 640, 1, 1)                         409600
+control_model.zero_convs.4.0.bias                                                                    (640,)                                   640
+control_model.zero_convs.5.0.weight                                                                  (640, 640, 1, 1)                         409600
+control_model.zero_convs.5.0.bias                                                                    (640,)                                   640
+control_model.zero_convs.6.0.weight                                                                  (640, 640, 1, 1)                         409600
+control_model.zero_convs.6.0.bias                                                                    (640,)                                   640
+control_model.zero_convs.7.0.weight                                                                  (1280, 1280, 1, 1)                       1638400
+control_model.zero_convs.7.0.bias                                                                    (1280,)                                  1280
+control_model.zero_convs.8.0.weight                                                                  (1280, 1280, 1, 1)                       1638400
+control_model.zero_convs.8.0.bias                                                                    (1280,)                                  1280
+control_model.zero_convs.9.0.weight                                                                  (1280, 1280, 1, 1)                       1638400
+control_model.zero_convs.9.0.bias                                                                    (1280,)                                  1280
+control_model.zero_convs.10.0.weight                                                                 (1280, 1280, 1, 1)                       1638400
+control_model.zero_convs.10.0.bias                                                                   (1280,)                                  1280
+control_model.zero_convs.11.0.weight                                                                 (1280, 1280, 1, 1)                       1638400
+control_model.zero_convs.11.0.bias                                                                   (1280,)                                  1280
+control_model.middle_block.0.emb_layers.1.lora_layer.down.weight                                     (128, 1280)                              163840
+control_model.middle_block.0.emb_layers.1.lora_layer.up.weight                                       (1280, 128)                              163840
+control_model.middle_block.1.norm.weight                                                             (1280,)                                  1280
+control_model.middle_block.1.norm.bias                                                               (1280,)                                  1280
+control_model.middle_block.1.transformer_blocks.0.attn1.to_q.lora_layer.down.weight                  (128, 1280)                              163840
+control_model.middle_block.1.transformer_blocks.0.attn1.to_q.lora_layer.up.weight                    (1280, 128)                              163840
+control_model.middle_block.1.transformer_blocks.0.attn1.to_k.lora_layer.down.weight                  (128, 1280)                              163840
+control_model.middle_block.1.transformer_blocks.0.attn1.to_k.lora_layer.up.weight                    (1280, 128)                              163840
+control_model.middle_block.1.transformer_blocks.0.attn1.to_v.lora_layer.down.weight                  (128, 1280)                              163840
+control_model.middle_block.1.transformer_blocks.0.attn1.to_v.lora_layer.up.weight                    (1280, 128)                              163840
+control_model.middle_block.1.transformer_blocks.0.attn1.to_out.0.lora_layer.down.weight              (128, 1280)                              163840
+control_model.middle_block.1.transformer_blocks.0.attn1.to_out.0.lora_layer.up.weight                (1280, 128)                              163840
+control_model.middle_block.1.transformer_blocks.0.ff.net.0.proj.lora_layer.down.weight               (128, 1280)                              163840
+control_model.middle_block.1.transformer_blocks.0.ff.net.0.proj.lora_layer.up.weight                 (10240, 128)                             1310720
+control_model.middle_block.1.transformer_blocks.0.ff.net.2.lora_layer.down.weight                    (128, 5120)                              655360
+control_model.middle_block.1.transformer_blocks.0.ff.net.2.lora_layer.up.weight                      (1280, 128)                              163840
+control_model.middle_block.1.transformer_blocks.0.attn2.to_q.lora_layer.down.weight                  (128, 1280)                              163840
+control_model.middle_block.1.transformer_blocks.0.attn2.to_q.lora_layer.up.weight                    (1280, 128)                              163840
+control_model.middle_block.1.transformer_blocks.0.attn2.to_k.lora_layer.down.weight                  (128, 768)                               98304
+control_model.middle_block.1.transformer_blocks.0.attn2.to_k.lora_layer.up.weight                    (1280, 128)                              163840
+control_model.middle_block.1.transformer_blocks.0.attn2.to_v.lora_layer.down.weight                  (128, 768)                               98304
+control_model.middle_block.1.transformer_blocks.0.attn2.to_v.lora_layer.up.weight                    (1280, 128)                              163840
+control_model.middle_block.1.transformer_blocks.0.attn2.to_out.0.lora_layer.down.weight              (128, 1280)                              163840
+control_model.middle_block.1.transformer_blocks.0.attn2.to_out.0.lora_layer.up.weight                (1280, 128)                              163840
+control_model.middle_block.1.transformer_blocks.0.norm1.weight                                       (1280,)                                  1280
+control_model.middle_block.1.transformer_blocks.0.norm1.bias                                         (1280,)                                  1280
+control_model.middle_block.1.transformer_blocks.0.norm2.weight                                       (1280,)                                  1280
+control_model.middle_block.1.transformer_blocks.0.norm2.bias                                         (1280,)                                  1280
+control_model.middle_block.1.transformer_blocks.0.norm3.weight                                       (1280,)                                  1280
+control_model.middle_block.1.transformer_blocks.0.norm3.bias                                         (1280,)                                  1280
+control_model.middle_block.2.emb_layers.1.lora_layer.down.weight                                     (128, 1280)                              163840
+control_model.middle_block.2.emb_layers.1.lora_layer.up.weight                                       (1280, 128)                              163840
+control_model.middle_block_out.0.weight                                                              (1280, 1280, 1, 1)                       1638400
+control_model.middle_block_out.0.bias                                                                (1280,)                                  1280
+----------------------------------------------------------------------------------------------------
+Total parameters: 36945536

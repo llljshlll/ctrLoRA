@@ -1,0 +1,71 @@
+Key                                                                                                  Shape                                    #Params
+----------------------------------------------------------------------------------------------------
+0.weight                                                                                             (64, 3, 3, 3)                            1728
+0.bias                                                                                               (64,)                                    64
+1.conv.0.weight                                                                                      (64, 64, 3, 3)                           36864
+1.conv.0.bias                                                                                        (64,)                                    64
+1.conv.2.weight                                                                                      (64, 64, 3, 3)                           36864
+1.conv.2.bias                                                                                        (64,)                                    64
+1.conv.4.weight                                                                                      (64, 64, 3, 3)                           36864
+1.conv.4.bias                                                                                        (64,)                                    64
+2.weight                                                                                             (64, 64, 3, 3)                           36864
+3.conv.0.weight                                                                                      (64, 64, 3, 3)                           36864
+3.conv.0.bias                                                                                        (64,)                                    64
+3.conv.2.weight                                                                                      (64, 64, 3, 3)                           36864
+3.conv.2.bias                                                                                        (64,)                                    64
+3.conv.4.weight                                                                                      (64, 64, 3, 3)                           36864
+3.conv.4.bias                                                                                        (64,)                                    64
+4.conv.0.weight                                                                                      (64, 64, 3, 3)                           36864
+4.conv.0.bias                                                                                        (64,)                                    64
+4.conv.2.weight                                                                                      (64, 64, 3, 3)                           36864
+4.conv.2.bias                                                                                        (64,)                                    64
+4.conv.4.weight                                                                                      (64, 64, 3, 3)                           36864
+4.conv.4.bias                                                                                        (64,)                                    64
+5.conv.0.weight                                                                                      (64, 64, 3, 3)                           36864
+5.conv.0.bias                                                                                        (64,)                                    64
+5.conv.2.weight                                                                                      (64, 64, 3, 3)                           36864
+5.conv.2.bias                                                                                        (64,)                                    64
+5.conv.4.weight                                                                                      (64, 64, 3, 3)                           36864
+5.conv.4.bias                                                                                        (64,)                                    64
+6.weight                                                                                             (64, 64, 3, 3)                           36864
+7.conv.0.weight                                                                                      (64, 64, 3, 3)                           36864
+7.conv.0.bias                                                                                        (64,)                                    64
+7.conv.2.weight                                                                                      (64, 64, 3, 3)                           36864
+7.conv.2.bias                                                                                        (64,)                                    64
+7.conv.4.weight                                                                                      (64, 64, 3, 3)                           36864
+7.conv.4.bias                                                                                        (64,)                                    64
+8.conv.0.weight                                                                                      (64, 64, 3, 3)                           36864
+8.conv.0.bias                                                                                        (64,)                                    64
+8.conv.2.weight                                                                                      (64, 64, 3, 3)                           36864
+8.conv.2.bias                                                                                        (64,)                                    64
+8.conv.4.weight                                                                                      (64, 64, 3, 3)                           36864
+8.conv.4.bias                                                                                        (64,)                                    64
+9.conv.0.weight                                                                                      (64, 64, 3, 3)                           36864
+9.conv.0.bias                                                                                        (64,)                                    64
+9.conv.2.weight                                                                                      (64, 64, 3, 3)                           36864
+9.conv.2.bias                                                                                        (64,)                                    64
+9.conv.4.weight                                                                                      (64, 64, 3, 3)                           36864
+9.conv.4.bias                                                                                        (64,)                                    64
+10.weight                                                                                            (64, 64, 3, 3)                           36864
+11.conv.0.weight                                                                                     (64, 64, 3, 3)                           36864
+11.conv.0.bias                                                                                       (64,)                                    64
+11.conv.2.weight                                                                                     (64, 64, 3, 3)                           36864
+11.conv.2.bias                                                                                       (64,)                                    64
+11.conv.4.weight                                                                                     (64, 64, 3, 3)                           36864
+11.conv.4.bias                                                                                       (64,)                                    64
+12.conv.0.weight                                                                                     (64, 64, 3, 3)                           36864
+12.conv.0.bias                                                                                       (64,)                                    64
+12.conv.2.weight                                                                                     (64, 64, 3, 3)                           36864
+12.conv.2.bias                                                                                       (64,)                                    64
+12.conv.4.weight                                                                                     (64, 64, 3, 3)                           36864
+12.conv.4.bias                                                                                       (64,)                                    64
+13.conv.0.weight                                                                                     (64, 64, 3, 3)                           36864
+13.conv.0.bias                                                                                       (64,)                                    64
+13.conv.2.weight                                                                                     (64, 64, 3, 3)                           36864
+13.conv.2.bias                                                                                       (64,)                                    64
+13.conv.4.weight                                                                                     (64, 64, 3, 3)                           36864
+13.conv.4.bias                                                                                       (64,)                                    64
+14.weight                                                                                            (4, 64, 3, 3)                            2304
+14.bias                                                                                              (4,)                                     4
+----------------------------------------------------------------------------------------------------
+Total parameters: 1222532

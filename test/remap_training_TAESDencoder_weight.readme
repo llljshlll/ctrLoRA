@@ -1,0 +1,71 @@
+Key                                                                                                  Shape                                    #Params
+----------------------------------------------------------------------------------------------------
+first_stage_model.encoder.1.weight                                                                   (64, 4, 3, 3)                            2304
+first_stage_model.encoder.1.bias                                                                     (64,)                                    64
+first_stage_model.encoder.3.conv.0.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.3.conv.0.bias                                                              (64,)                                    64
+first_stage_model.encoder.3.conv.2.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.3.conv.2.bias                                                              (64,)                                    64
+first_stage_model.encoder.3.conv.4.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.3.conv.4.bias                                                              (64,)                                    64
+first_stage_model.encoder.4.conv.0.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.4.conv.0.bias                                                              (64,)                                    64
+first_stage_model.encoder.4.conv.2.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.4.conv.2.bias                                                              (64,)                                    64
+first_stage_model.encoder.4.conv.4.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.4.conv.4.bias                                                              (64,)                                    64
+first_stage_model.encoder.5.conv.0.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.5.conv.0.bias                                                              (64,)                                    64
+first_stage_model.encoder.5.conv.2.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.5.conv.2.bias                                                              (64,)                                    64
+first_stage_model.encoder.5.conv.4.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.5.conv.4.bias                                                              (64,)                                    64
+first_stage_model.encoder.7.weight                                                                   (64, 64, 3, 3)                           36864
+first_stage_model.encoder.8.conv.0.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.8.conv.0.bias                                                              (64,)                                    64
+first_stage_model.encoder.8.conv.2.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.8.conv.2.bias                                                              (64,)                                    64
+first_stage_model.encoder.8.conv.4.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.8.conv.4.bias                                                              (64,)                                    64
+first_stage_model.encoder.9.conv.0.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.9.conv.0.bias                                                              (64,)                                    64
+first_stage_model.encoder.9.conv.2.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.9.conv.2.bias                                                              (64,)                                    64
+first_stage_model.encoder.9.conv.4.weight                                                            (64, 64, 3, 3)                           36864
+first_stage_model.encoder.9.conv.4.bias                                                              (64,)                                    64
+first_stage_model.encoder.10.conv.0.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.10.conv.0.bias                                                             (64,)                                    64
+first_stage_model.encoder.10.conv.2.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.10.conv.2.bias                                                             (64,)                                    64
+first_stage_model.encoder.10.conv.4.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.10.conv.4.bias                                                             (64,)                                    64
+first_stage_model.encoder.12.weight                                                                  (64, 64, 3, 3)                           36864
+first_stage_model.encoder.13.conv.0.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.13.conv.0.bias                                                             (64,)                                    64
+first_stage_model.encoder.13.conv.2.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.13.conv.2.bias                                                             (64,)                                    64
+first_stage_model.encoder.13.conv.4.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.13.conv.4.bias                                                             (64,)                                    64
+first_stage_model.encoder.14.conv.0.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.14.conv.0.bias                                                             (64,)                                    64
+first_stage_model.encoder.14.conv.2.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.14.conv.2.bias                                                             (64,)                                    64
+first_stage_model.encoder.14.conv.4.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.14.conv.4.bias                                                             (64,)                                    64
+first_stage_model.encoder.15.conv.0.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.15.conv.0.bias                                                             (64,)                                    64
+first_stage_model.encoder.15.conv.2.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.15.conv.2.bias                                                             (64,)                                    64
+first_stage_model.encoder.15.conv.4.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.15.conv.4.bias                                                             (64,)                                    64
+first_stage_model.encoder.17.weight                                                                  (64, 64, 3, 3)                           36864
+first_stage_model.encoder.18.conv.0.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.18.conv.0.bias                                                             (64,)                                    64
+first_stage_model.encoder.18.conv.2.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.18.conv.2.bias                                                             (64,)                                    64
+first_stage_model.encoder.18.conv.4.weight                                                           (64, 64, 3, 3)                           36864
+first_stage_model.encoder.18.conv.4.bias                                                             (64,)                                    64
+first_stage_model.encoder.19.weight                                                                  (3, 64, 3, 3)                            1728
+first_stage_model.encoder.19.bias                                                                    (3,)                                     3
+----------------------------------------------------------------------------------------------------
+Total parameters: 1222531
